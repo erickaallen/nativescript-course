@@ -1,0 +1,20 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+	loaded="pageLoaded">
+
+    <GridLayout rows="auto, *">
+		<!-- Header -->
+		<StackLayout>
+
+		</StackLayout>
+
+		<!-- Sessions Views -->
+		<GridLayout rows="auto, *">
+			<ListView items="{{ sessions }}">
+				<ListView.itemTemplate>
+					<Label text="item" />
+				</ListView.itemTemplate>
+			</ListView>
+		</GridLayout>
+	</GridLayout>
+    
+</Page>

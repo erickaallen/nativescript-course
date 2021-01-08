@@ -13,7 +13,9 @@
 		"tns-core-modules": "2.0.0"
 	},
 	"devDependencies": {
-		"nativescript-dev-typescript": "^0.3.2",
+		"@nativescript/android": "7.0.1",
+		"nativescript-dev-typescript": "^0.3.7",
+		"tns-ios": "2.0.0",
 		"typescript": "^1.8.10"
 	}
 }
